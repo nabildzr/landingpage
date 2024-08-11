@@ -1,0 +1,126 @@
+.social-links i {
+    color: var(--white);
+    font-size: 33px;
+    margin-left: 10px;
+  }
+
+  .social-links i {
+    color: #3e71ac;
+  }
+
+  .social-links i:hover {
+    color: var(--gray-half);
+
+    background: var(--gray-half);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  
+  .social-links .fa-tiktok {
+    font-size: 28px;
+      /* Create the gradient. */
+  }
+
+  .social-links .fa-tiktok{
+    color: #ce4fa3;
+
+    background: linear-gradient(45deg, #9d3655,rgb(178, 109, 146) , rgb(187, 34, 77) );
+
+    background-size: 100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+  }
+
+  .social-links .fa-square-x-twitter{
+    color: #ce4fa3;
+
+    background: linear-gradient(45deg, #57474b,rgb(109, 93, 102) , rgb(117, 111, 113) );
+
+    background-size: 100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+  }
+
+  .social-links .fa-medium {
+    color: #ce4fa3;
+
+    background: linear-gradient(45deg, #434343,rgb(132, 132, 132) , rgb(134, 134, 134) );
+
+    background-size: 100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+  }
+
+  .social-links .fa-weibo {
+    color: #ce4fa3;
+
+    background: linear-gradient(45deg, #9f2727,rgb(210, 55, 55) , rgb(128, 32, 32) );
+
+    background-size: 100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+  }
+
+  .social-links .fa-podcast{
+    color: #ce4fa3;
+
+    background: linear-gradient(45deg, #9f2775,rgb(210, 55, 133) , rgb(128, 32, 123) );
+
+    background-size: 100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+  }
+
+  .social-links .fa-square-youtube{
+    color: #ce4fa3;
+
+    background: linear-gradient(45deg, #9f2727,rgb(210, 55, 55) , rgb(128, 32, 32) );
+
+    background-size: 100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+  }
+
+  .social-links .fa-square-instagram {
+    background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  
+    background-size: 100%;
+  
+    /* Use the text as a mask for the background. */
+    .social-links .fa-tiktok:hover {
+      color: l
+    }
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  

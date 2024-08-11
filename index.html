@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/socialicon.css">
+
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/42f98f07fc.js" crossorigin="anonymous"></script>
+
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- <div class="top-menu">
+        <div>
+            <a href="" class="top-icon start">
+                <i class="fa-brands fa-facebook"></i>
+
+            </a>
+            <a href="" class="top-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" class="top-icon">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="" class="top-icon">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <div class="top-icon last">
+                <a href="" class="fa-brands fa-whatsapp"></a>
+                <marquee class="marq-top" behavior="" direction="">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, nesciunt aliquam! Quos distinctio
+                    obcaecati voluptatibus sint facilis nemo vel provident.
+                </marquee>
+            </div>
+        </div>
+    </div> -->
+
+
+    <nav class="navbar">
+        <div class="nav-cont">
+            <a href="#" class="logo">
+
+                <!-- responsive 1300+ -->
+                <!-- <img src="./assets/img/university.png" />
+            <div href="#" class="brand">
+                <div>
+                    <h3>University of</h3>
+                    <h3>Lorem Ipsum</h3>
+                </div>
+            </div>
+        </a> -->
+
+                <!-- responsive -1000 -->
+                <div class="logo-border-container">
+                    <img src="./assets/img/university.png" />
+                    <div href="#" class="brand">
+                        <div class="brando">
+                            <h3>University of</h3>
+                            <h3>LoremISM</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </a>
+            <div class="navigation">
+                <ul class="menu">
+
+                    <li class="dropdown"><a href="#">ADMISSIONS <i class="fa-solid fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+
+                            <a href="#">Undergraduate</a>
+
+                            <a href="#">Postgraduate</a>
+
+                            <a href="#">Profession</a>
+                            <a href="#">Student exchange</a>
+                            <a href="#">Continuing education</a>
+                            <a href="#">International class</a>
+                        </div>
+                    </li>
+
+
+                    <li class="dropdown"><a href="#">RESEARCH <i class="fa-solid fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Engange with us</a>
+                            <a href="#">Support for researchers</a>
+                            <a href="#">Using research to engange</a>
+                            <a href="#">Recognition</a>
+                        </div>
+                    </li>
+
+
+                    <li class="dropdown"><a href="#">NEWS & EVENTS <i class="fa-solid fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Event</a>
+                            <a href="#">Features</a>
+                            <a href="#">Loremism Profile</a>
+                            <a href="#">News releases for journalists</a>
+                            <a href="#">Find an expert</a>
+                        </div>
+                    </li>
+
+
+                    <li class="dropdown"><a href="">ABOUT <span class="fa-solid fa-caret-down"></span></a>
+                        <div class="dropdown-content">
+                            <a href="">History</a>
+                            <a href="">Vision and mission</a>
+
+                            <a href="">Organizational structure</a>
+                            <a href="">Duties and functions</a>
+                            <a href="">Building our future</a>
+                            <a href="">Loremism people</a>
+                            <a href="">Jobs</a>
+                            <a href="">Visit</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav-cant">
+            <div class="bar-after-container">
+                <div class="bar-after">
+                    <div class="bar-after-search-container">
+                        <!-- <input type="text"> -->
+                        <div class="fa fa-search bar-after-icon"></div>
+                    </div>
+
+                    <div class="bar-after-bar-container">
+                        <div class="fa-solid fa-bars bar-after-icon"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-cant-container">
+
+                <div class="nav-cant-top">
+
+
+                    <div class="dropdown college">
+
+                        <div class="dropdown-2 box-sizes college-btn">Colleges <span
+                                class="fa-solid fa-caret-down caret-college">
+                            </span>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="dropdown-2 box-sizes division division-btn" id="myDropdown" onclick="divisions()">
+                        Division & departments <span class="fa-solid fa-caret-down caret-division"></span>
+                    </div>
+                    <div class="inputs">
+                        <input class="nav-input " placeholder="Search..." type="text">
+
+                        <div class="btn-search-container">
+                            <div class="fa fa-search searchs"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="nav-cant-bottom">
+                    <a class="box-sizes" href="">Staff</a>
+                    <a class="box-sizes" href="">Mahasiswa</a>
+                    <a class="box-sizes" href="">Alumni</a>
+                    <a class="box-sizes" href="">Community </a>
+                </div>
+            </div>
+
+            <!-- dropdown with big size -->
+            <div class="dropdown-content-big ">
+                <div class="college-container ">
+                    <div class="college-container-2">
+                        <div class="college-btn-container">
+                            <section class="college-btn-section-container">
+
+                                <button class="on-college-btn">FOR UNDERGRADUATE APPLICANTS</button>
+                                <button class="on-college-btn">FOR GRADUATE APPLICANTS</button>
+                                <button class="on-college-btn">COLLEGE AND HALLS MAP</button>
+                                <button class="on-college-btn">CONFERENCE OF COLLEGERS</button>
+                            </section>
+                        </div>
+
+                        <!-- make 3 column table with border gray color -->
+                        <div class="college-table-container">
+                           <ul class="college-content-container">
+                            <li class="college-content-1">
+                                <ul class="cgb college-box-1">
+                                    <li class="college-abjad">A</li>
+                                    <li>All Souls College</li>
+                                </ul>
+                                <ul class="cgb college-box-1">
+                                    <li class="college-abjad">B</li>
+                                    <li>Balliol College</li>
+                                    <li>Blackfriars</li>
+                                    <li>Brasenose College</li>
+                                </ul>
+                                <ul class="cgb college-box-1">
+                                    <li class="college-abjad">C</li>
+                                    <li>Campion Hall</li>
+                                    <li>Christ Church</li>
+                                    <li>Corpus Christi College</li>
+                                </ul>
+                                <ul class="cgb college-box-1">
+                                    <li class="college-abjad">E</li>
+                                    <li>Exeter College</li>
+                                </ul>
+                                <ul class="cgb college-box-1">
+                                    <li class="college-abjad">G</li>
+                                    <li>Green Templeton College</li>
+                                </ul>
+                                <ul class="cgb college-box-1">
+                                    <li class="college-abjad">H</li>
+                                    <li>Harris Manchester College</li>
+                                    <li>Hertford College</li>
+                                </ul>
+                                <ul class="cgb college-box-1">
+                                    <li class="college-abjad">J</li>
+                                    <li>Jesus College</li>
+                                    <li></li>
+                                </ul>
+                                <ul class="cgb college-box-1">
+                                    <li class="college-abjad">K</li>
+                                    <li>Keble College</li>
+                                    <li>Kellog College</li>
+                                </ul>
+                       
+                          
+
+                            </li>
+                            <li class="college-content-2">
+                                <ul class="cgb college-box-2">
+                                    <li class="college-abjad">L</li>
+                                    <li>Lady Margaret Hall</li>
+                                    <li>Linacre College</li>
+                                    <li>Lincoln College</li>
+                                </ul>
+                                <ul class="cgb college-box-2">
+                                    <li class="college-abjad">M</li>
+                                    <li>Magdalen College</li>
+                                    <li>Mansfield College</li>
+                                    <li>Merton College</li>
+                                </ul>
+                                <ul class="cgb college-box-2">
+                                    <li class="college-abjad">N</li>
+                                    <li>New College</li>
+                                    <li>Nuffield College</li>
+                                </ul>
+                                <ul class="cgb college-box-2">
+                                    <li class="college-abjad">O</li>
+                                    <li>Oriel College</li>
+                                </ul>
+                                <ul class="cgb college-box-2">
+                                    <li class="college-abjad">P</li>
+                                    <li>Pembroke College</li>
+                                </ul>
+                                <ul class="cgb college-box-2">
+                                    <li class="college-abjad">Q</li>
+                                    <li>The Queen's College</li>
+                                </ul>
+                                <ul class="cgb college-box-2">
+                                    <li class="college-abjad">R</li>
+                                    <li>Regent's Park College</li>
+                                    <li>Reuben College</li>
+                                </ul>
+                            </li>
+                            <li class="college-content-3">
+                                <ul class="cgb college-box-3">
+                                    <li class="college-abjad">S</li>
+                                    <li>St Anne's College</li>
+                                    <li>St Antony's College</li>
+                                    <li>St Catherine's College</li>
+                                    <li>St Cross College</li>
+                                    <li>St Edmund Hall</li>
+                                    <li>St Hilda's College</li>
+                                    <li>St Hugh's College</li>
+                                    <li>St John's College</li>
+                                    <li>St Peter's College</li>
+                                    <li>Somerville College</li>
+                                    
+                                </ul>
+                                <ul class="cgb college-box-3">
+                                    <li class="college-abjad">T</li>
+                                    <li>Trinity College</li>
+                              
+                                </ul>
+                                <ul class="cgb college-box-3">
+                                    <li class="college-abjad">U</li>
+                                    <li>University College</li>
+                              
+                                </ul>
+                          
+                                <ul class="cgb college-box-3">
+                                    <li class="college-abjad">W</li>
+                                    <li>Wadham College</li>
+                                    <li>Wolfson College</li>
+                                    <li>Worcester College</li>
+                                    <li>Wycliffe Hall</li>
+                              
+                                </ul>
+                            </li>
+                           </ul>
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="dropdown-content-big dp-2 ">
+                <div class="college-container ">
+                    <div class="college-container-2" style="background-color: var(--secondary); padding: 25px; border-radius: 10px;">
+                        
+
+                        <div style="font-family: 'PT Sans'; color: var(--white)">SOON</div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+    </nav>
+
+    <div class="bar-drop-container">
+        <div class="bar-drop">
+            <div class="bar-drop-menu">
+                <div class="bar-menu">
+                    <a href="">ADMISSION</a>
+                    <button class="toggle"><i class="fa fa-caret-down"></i></button>
+                </div>
+                <div class="bar-menu">
+                    <a href="">RESEARCH</a>
+                    <button class="toggle"><i class="fa fa-caret-down"></i></button>
+                </div>
+                <div class="bar-menu">
+                    <a href="">NEWS & EVENTS</a>
+                    <button class="toggle"><i class="fa fa-caret-down"></i></button>
+                </div>
+                <div class="bar-menu">
+                    <a href="">ABOUT</a>
+                    <button class="toggle"><i class="fa fa-caret-down"></i></button>
+                </div>
+            </div>
+            <div class="bar-drop-cant">
+                <div class="bar-cant bar-cant-primary">
+                    <h2>Colleges</h2>
+                </div>
+                <div class="bar-cant bar-cant-primary">
+                    <h2>Division & Departments</h2>
+                </div>
+
+                <div class="bar-cant">
+                    <h2>Staff</h2>
+                </div>
+                <div class="bar-cant">
+                    <h2>Loremism students</h2>
+                </div>
+                <div class="bar-cant">
+                    <h2>Alumni</h2>
+                </div>
+                <div class="bar-cant">
+                    <h2>Local Community</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide swip-slide-1">
+                <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/s3/bcar_grayson-perry-blanket.jpg?itok=xP-QCJfd"
+                    class="fit-image" alt="">
+
+
+                <div class="img-swiper-text">
+                    <div class="img-swiper-text-1">money talks: art, society and power</div>
+                    <div class="img-swiper-text-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+                        voluptates quas in illum accusantium debitis consequuntur.</div>
+                </div>
+
+
+                <div class="black"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/s3/field/field_image_main/Hertford%20College%20-%20Edmund%20Blok.jpg?itok=PLapzn05"
+                    class="fit-image" alt="">
+
+
+                <div class="img-swiper-text">
+                    <div class="img-swiper-text-1">WHAT IS AN LOREMISM COLLEGE?</div>
+                    <div class="img-swiper-text-2">
+                        Find out how membership of this multidisciplinary community complements life as a graduate
+                        student
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="black"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/s3/bcar_co2_budget.jpg?itok=SKOG45w5"
+                    class="fit-image" alt="">
+
+
+                <div class="img-swiper-text">
+                    <div class="img-swiper-text-1">our researches propose 'carbon removal budget' to tackle climate
+                        change
+                    </div>
+                    <div class="img-swiper-text-2">
+                        It would sit alongside the Carbon Budget that govern how much CO2 can savely be emitted globally
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="black"></div>
+            </div>
+
+
+
+            <div class="swiper-slide">
+                <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/s3/bcar_ug_prepare_apply.jpg?itok=9u_UeAX9"
+                    class="fit-image" alt="">
+
+
+                <div class="img-swiper-text">
+                    <div class="img-swiper-text-1">making a start on your ucas application?
+                    </div>
+                    <div class="img-swiper-text-2">
+                        Read our advice how to approach the personal statement this summer
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="black"></div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="swiper-button-next .swiper-button-disabled" style="color: white; right: 50px; display: none;"></div>
+        <div disabled class="swiper-button-prev .swiper-button-disabled"
+            style="color: white; left: 50px; display: none;"></div>
+        <div class="swiper-pagination" style="color: white;"></div>
+        <div class="autoplay-progress">
+            <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+        </div>
+
+    </div>
+
+
+
+    <!--    new section -->
+
+    <main class="main-container whites">
+        <div class="child-container">
+
+            <div class="container">
+                <section class="news">
+                    <div class="title">
+                        <div class="titles">News</div>
+                        <div class="more-link"><a href="">All News</a></div>
+                    </div>
+                    <div class="news-card-container">
+                        <div class="news-card">
+                            <div class="news-card-img">
+                                <img src="https://i.pinimg.com/564x/34/26/71/34267191338476e1b48077d7a139c6ed.jpg"
+                                    alt="">
+                            </div>
+                            <div class="news-card-text">
+                                <div class="news-card-title">
+                                    Exploring the Wonders of the Amazon Rainforest.
+                                </div>
+                                <div class="news-card-description">
+                                    Join us on a journey through the lush and diverse Amazon Rainforest, uncovering its
+                                    hidden secrets and the incredible wildlife that calls it home.
+                                    <div class="card-date">
+                                        12th June, 2021
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="news-card">
+                            <div class="news-card-img">
+                                <img src="https://i.pinimg.com/564x/bb/5d/83/bb5d83c3ebbaa34974429aec4f06b6b5.jpg"
+                                    alt="">
+                            </div>
+                            <div class="news-card-text">
+                                <div class="news-card-title">
+                                    Advancements in University Research Programs.
+                                </div>
+
+                                <div class="news-card-description">
+                                    Discover the latest breakthroughs and innovations emerging from university research
+                                    programs, driving progress in various fields of study.
+                                    <div class="card-date">
+                                        12th June, 2021
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="news-card last-chi1">
+                            <div class="news-card-img">
+                                <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_listing/s3/field/field_image_main/brain%20mri.jpg?itok=B1iGqsnv"
+                                    alt="">
+                            </div>
+                            <div class="news-card-text">
+                                <div class="news-card-title">
+                                    Serotonin Changes how people learn and respond to negative information
+                                </div>
+
+                                <div class="news-card-description">
+                                    Serotonin is a neurotransmitter that plays a crucial role in learning and memory. By
+                                    altering serotonin levels, people can improve their performance in various tasks,
+                                    such as reading, writing, and problem-solving.
+
+                                    <div class="card-date">
+                                        12th June, 2021
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="events">
+                    <div class="title">
+                        <div class="titles">EVENTS</div>
+                        <div class="more-link"><a href="">All Events</a></div>
+                    </div>
+                    <div class="events-schedule-container">
+                        <div class="schedule-box">
+                            <div class="schedule-date-container">
+                                <div class="schedule-date">
+                                    <div class="schedule-dates">24</div>
+                                    <div class="schedule-date-months">Aug</div>
+                                </div>
+                            </div>
+                            <div class="schedule-desc">
+                                <a href="" class="schedule-title">
+                                    How does it Work (including Light & Space Backpacks)
+                                </a>
+                                <div class="schedule-authors">
+                                    History of Science Museum
+                                </div>
+                                <div class="card-date">
+                                    24th Aug, 2024
+                                </div>
+                            </div>
+                        </div>
+                        <div class="schedule-box">
+                            <div class="schedule-date-container">
+                                <div class="schedule-date">
+                                    <div class="schedule-dates">10</div>
+                                    <div class="schedule-date-months">AUG</div>
+                                </div>
+                            </div>
+                            <div class="schedule-desc">
+                                <a href="" class="schedule-title">
+                                    Earth & Planetary Sciences Gallery
+                                </a>
+                                <div class="schedule-authors">
+                                    Loremism Museum of Natural History
+                                </div>
+                                <div class="card-date">
+                                    10th Aug, 2024
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+    </main>
+    <hr>
+    <main class="main-container grays">
+
+        <div class="container">
+            <section class="discover">
+                <div class="title">
+                    <div class="titles">Discover</div>
+                    <div class="more-link"><a href="">See another Discover</a></div>
+                </div>
+                <div class="news-card-container">
+                    <div class="news-card whites">
+                        <div class="news-card-img">
+                            <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_small_highlight/s3/disc_oxford_bw_crisis.jpg?itok=uMWhvOgy"
+                                alt="">
+                        </div>
+                        <div class="news-card-text">
+                            <div class="news-card-title">
+                                University response to recent events in israel, Gaza and The Middle East
+                            </div>
+
+                            <div class="news-card-description">
+                                Information, advice and support for staff and students impacted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-card whites">
+                        <div class="news-card-img">
+                            <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_small_highlight/s3/disc_oii_ai_swirl.jpg?itok=wQyMH59y"
+                                alt="">
+                        </div>
+                        <div class="news-card-text">
+                            <div class="news-card-title">
+                                The Loremism Internet Institute
+                            </div>
+
+                            <div class="news-card-description">
+                                Large Leanguage Models pose a risk to society and need tighter regulation
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-card whites">
+                        <div class="news-card-img">
+                            <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_small_highlight/s3/disc_histsci_backpacks.jpg?itok=s0CdLzZt"
+                                alt="">
+                        </div>
+                        <div class="news-card-text">
+                            <div class="news-card-title">
+                                Light and Space inclusive Backpacks
+                            </div>
+
+                            <div class="news-card-description">
+                                14 Aug, 12.00-2.00pm in the Historyof Science Museum, just drop in
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-card whites">
+                        <div class="news-card-img">
+                            <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_small_highlight/s3/disc_ukraine_flag.jpg?itok=HLfoxG7t"
+                                alt="">
+                        </div>
+                        <div class="news-card-text">
+                            <div class="news-card-title">
+                                University response to The Invasion of Ukraine
+                            </div>
+
+                            <div class="news-card-description">
+                                Information, advice and support for staff and students impacted
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <hr>
+    <main class="main-container whites">
+
+        <div class="container">
+            <section class="study">
+                <div class="title">
+                    <div class="titles">Studying at loremism</div>
+                </div>
+                <div class="study-card-container">
+                    <div class="study-card">
+                        <div class="study-card-img">
+                            <img src="https://i.pinimg.com/564x/3f/b2/62/3fb262c2961a50eb1fa88102cc80d679.jpg" alt="">
+                        </div>
+                        <div class="study-card-text">
+                            <div class="study-card-title">
+                                Undergraduate admissions
+                                <!-- <i class="fa-solid fa-door"></i> -->
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="study-card">
+                        <div class="study-card-img">
+                            <img src="https://i.pinimg.com/564x/65/2a/75/652a75f2f15af37a7a13dc57ded22239.jpg" alt="">
+                        </div>
+                        <div class="study-card-text">
+                            <div class="study-card-title">
+                                Graduate admissions
+
+                                <i class="fa-solid fa-graduation-cap"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="study-card">
+                        <div class="study-card-img">
+                            <img src="https://i.pinimg.com/564x/ac/2d/7f/ac2d7f3768c4f602732b48cc871a7858.jpg" alt="">
+                        </div>
+                        <div class="study-card-text">
+                            <div class="study-card-title">
+                                Continuing education
+                                <i class="fa-solid fa-book-open"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="study-card">
+                        <div class="study-card-img">
+                            <img src="https://i.pinimg.com/originals/a3/fc/85/a3fc856fe2d12728330cc8379e9fece5.gif"
+                                alt="">
+                            <img src="https://i.pinimg.com/564x/fb/57/9b/fb579b49c0282322f9a62e58debb5cf4.jpg" alt="">
+
+                        </div>
+                        <div class="study-card-text">
+                            <div class="study-card-title">
+                                Current Loremism students
+                                <i class="fa-solid fa-book-open-reader"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <div>CONNECT WITH US</div>
+            <a href="#"><i class="fa fa-podcast"></i></a>
+            <a href="#"><i class="fab fa-square-youtube"></i></a>
+            <a href="#"><i class="fab fa-square-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-square-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-square-facebook"></i></a>
+            <a href="#"><i class="fab fa-medium"></i></a>
+            <a href="#"><i class="fa fa-weibo"></i></a>
+
+        </div>
+        <div class="site-map">
+            <div class="site-map-item">
+                <div>INFORMATION ABOUT</div>
+                <ul>
+                    <li><a href="">Loremism University</a></li>
+                    <li><a href="">Strategic plan</a></li>
+                    <li><a href="">Loremism research</a></li>
+                    <li><a href="">Course fees and funding</a></li>
+                    <li><a href="">Libraries</a></li>
+                    <li><a href="">Museums and collections</a></li>
+                    <li><a href="">Loremism glossary</a></li>
+                    <li><a href="">Freedom of speech statement</a></li>
+                    <li><a href="">Statement on Modern Slavery</a></li>
+                    <li><a href="">Data privacy / GDPR</a></li>
+                    <li><a href="">Sport at Loremism</a></li>
+                    <li><a href="">Conferences at Loremism</a></li>
+                    <li><a href="">牛津大学</a></li>
+                </ul>
+            </div>
+            <div class="site-map-item">
+                <div>INFORMATION FOR</div>
+                <ul>
+                    <li><a href="">Prospective undergraduates</a></li>
+                    <li><a href="">Prospective graduate students</a></li>
+                    <li><a href="">Prospective Continuing Education students</a></li>
+                    <li><a href="">Prospective online-distance lerning students</a></li>
+                    <li><a href="">Current Loremism students</a></li>
+                    <li><a href="">Current Loremism staff</a></li>
+                    <li><a href="">Loremism residents/Coummunity</a></li>
+                    <li><a href="">Visitors/Tourists</a></li>
+                    <li><a href="">Media</a></li>
+                    <li><a href="">Alumni</a></li>
+                    <li><a href="">Teachers</a></li>
+                    <li><a href="">Parlementarians</a></li>
+                    <li><a href="">Business/Partnerships</a></li>
+                </ul>
+            </div>
+            <div class="site-map-item">
+                <div>QUICK LINKS</div>
+                <ul>
+                    <li><a href="">Any questions?</a></li>
+                    <li><a href="">Jobs and vacancies</a></li>
+                    <li><a href="">Term dates</a></li>
+                    <li><a href="">Map</a></li>
+                    <li><a href="">Nabildzr</a></li>
+                    <li><a href="">Giving to Loremism</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="end">
+            <ul>
+                <li class="copyright">
+
+                    © University of Loremism 2024
+
+                </li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">About this site</a></li>
+                <li><a href="">Legal</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Accessibility Statement</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script>
+        // swiper hero
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+
+            on: {
+                autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                    progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+                }
+            }
+        });
+
+
+    </script>
+
+    <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/slider.js"> -->
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

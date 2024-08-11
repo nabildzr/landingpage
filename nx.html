@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+            height: 1000px;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div>
+<nav class="navbar">
+    <div class="nav-cont">
+        <a href="#" class="logo">
+
+            <!-- responsive 1300+ -->
+            <!-- <img src="./assets/img/university.png" />
+            <div href="#" class="brand">
+                <div>
+                    <h3>University of</h3>
+                    <h3>Lorem Ipsum</h3>
+                </div>
+            </div>
+        </a> -->
+
+            <!-- responsive -1000 -->
+            <div class="logo-border-container">
+                <img src="./assets/img/university.png" />
+                <div href="#" class="brand">
+                    <div class="brando">
+                        <h3>University of</h3>
+                        <h3>LoremISM</h3>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+        <div class="navigation">
+            <ul class="menu">
+
+                <li class="dropdown"><a href="#">ADMISSIONS <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+
+                        <a href="#">Undergraduate</a>
+
+                        <a href="#">Postgraduate</a>
+
+                        <a href="#">Profession</a>
+                        <a href="#">Student exchange</a>
+                        <a href="#">Continuing education</a>
+                        <a href="#">International class</a>
+                    </div>
+                </li>
+
+
+                <li class="dropdown"><a href="#">RESEARCH <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Engange with us</a>
+                        <a href="#">Support for researchers</a>
+                        <a href="#">Using research to engange</a>
+                        <a href="#">Recognition</a>
+                    </div>
+                </li>
+
+
+                <li class="dropdown"><a href="#">NEWS & EVENTS <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Event</a>
+                        <a href="#">Features</a>
+                        <a href="#">Loremism Profile</a>
+                        <a href="#">News releases for journalists</a>
+                        <a href="#">Find an expert</a>
+                    </div>
+                </li>
+
+
+                <li class="dropdown"><a href="">ABOUT <span class="fa-solid fa-caret-down"></span></a>
+                    <div class="dropdown-content">
+                        <a href="">History</a>
+                        <a href="">Vision and mission</a>
+
+                        <a href="">Organizational structure</a>
+                        <a href="">Duties and functions</a>
+                        <a href="">Building our future</a>
+                        <a href="">Loremism people</a>
+                        <a href="">Jobs</a>
+                        <a href="">Visit</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="nav-cant">
+        <div class="nav-cant-container">
+            <div class="nav-cant-top ">
+                <div class="dropdown college">
+
+                    <div class="dropdown-2 box-sizes college-btn">Colleges <span
+                            class="fa-solid fa-caret-down caret-college">
+                        </span>
+
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="dropdown-2 box-sizes division division-btn" id="myDropdown" onclick="divisions()">
+                    Division & departments <span class="fa-solid fa-caret-down caret-division"></span>
+                </div>
+                <div class="inputs">
+                    <input class="nav-input " placeholder="Search..." type="text">
+
+                    <div class="btn-search-container">
+                        <div class="fa fa-search searchs"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="nav-cant-bottom">
+                <a class="box-sizes" href="">Staff</a>
+                <a class="box-sizes" href="">Mahasiswa</a>
+                <a class="box-sizes" href="">Alumni</a>
+                <a class="box-sizes" href="">Community </a>
+            </div>
+        </div>
+
+        <!-- dropdown with big size -->
+        <div class="dropdown-content-big ">
+            <div class="college-container ">
+                <div class="college-container-2">
+                    <div class="college-btn-container">
+
+                        <button class="on-college-btn">FOR UNDERGRADUATE APPLICANTS</button>
+                        <button class="on-college-btn">FOR GRADUATE APPLICANTS</button>
+                        <button class="on-college-btn">COLLEGE AND HALLS MAP</button>
+                        <button class="on-college-btn">CONFERENCE OF COLLEGERS</button>
+                    </div>
+
+                    <!-- make 3 column table with border gray color -->
+                    <div class="college-table-container">
+                        <table class="college-table">
+                            <tr>
+                                <th>A</th>
+                                <th>G</th>
+                                <th>M</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <th>H</th>
+                                <th>N</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>C</th>
+                                <th>I</th>
+                                <th>O</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>D</th>
+                                <th>J</th>
+                                <th>P</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>E</th>
+                                <th>K</th>
+                                <th>Q</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>F</th>
+                                <th>L</th>
+                                <th>R</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                        </table>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="dropdown-content-big dp-2 ">
+            <div class="college-container ">
+                <div class="college-container-2" style="background-color: black">
+                    <div class="college-btn-container">
+
+                        <button class="on-college-btn">FOR UNDERGRADUATE APPLICANTS</button>
+                        <button class="on-college-btn">FOR GRADUATE APPLICANTS</button>
+                        <button class="on-college-btn">COLLEGE AND HALLS MAP</button>
+                        <button class="on-college-btn">CONFERENCE OF COLLEGERS</button>
+                    </div>
+
+                    <!-- make 3 column table with border gray color -->
+                    <div class="college-table-container">
+                        <table class="college-table">
+                            <tr>
+                                <th>A</th>
+                                <th>G</th>
+                                <th>M</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <th>H</th>
+                                <th>N</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>C</th>
+                                <th>I</th>
+                                <th>O</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>D</th>
+                                <th>J</th>
+                                <th>P</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>E</th>
+                                <th>K</th>
+                                <th>Q</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                            <tr>
+                                <th>F</th>
+                                <th>L</th>
+                                <th>R</th>
+                            </tr>
+                            <tr>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+                                <td>Lorem ipsum dolor sit amet.</td>
+
+
+                            </tr>
+                        </table>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+</nav>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
