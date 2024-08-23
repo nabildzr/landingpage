@@ -623,11 +623,7 @@ th {
   display: block;
 }
 
-/* if */
 
-.container {
-  display: flex;
-}
 
 /* slider */
 
@@ -749,9 +745,12 @@ hr {
   width: 100%;
   padding-top: 45px;
   justify-content: center;
+  flex-wrap: wrap;
   display: flex;
   padding-left: 20px;
 }
+
+
 
 .child-container {
   justify-content: center;
@@ -759,7 +758,7 @@ hr {
 
 .container {
   max-width: 1300px;
-
+  justify-content: center;
   height: auto 0;
   padding-bottom: 50px;
   display: flex;
@@ -813,10 +812,12 @@ hr {
 
 .news-card-container {
   display: flex;
+  justify-content: center;
   flex-direction: row;
 }
 
 .news-card {
+  display: block;
   border-radius: 10px;
   overflow: hidden;
   padding: 10px 10px;
@@ -877,7 +878,11 @@ hr {
   font-size: 13px;
 }
 
+
+
 /* EVENTS */
+
+.events-wrap {display: none;}
 
 .events-schedulue-container {
   width: 100%;
@@ -901,6 +906,12 @@ hr {
   font-weight: 500;
   margin-top: 6px;
 }
+
+.last-event-1, .last-event-2 {
+  display: none;
+}
+
+
 
 /* .schedule-date {} */
 
@@ -942,6 +953,10 @@ hr {
 
 /* discover */
 
+.discover {
+ justify-content: center;
+}
+
 .news-card-container {
   flex-wrap: wrap;
 }
@@ -952,6 +967,7 @@ hr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .study-card {
@@ -1310,10 +1326,24 @@ footer {
   width: 700px; 
 }
 } 
+
+/* schedule box event */
+.last-event-1 .schedule-box:first-child {
+  margin-top: 55px;
+}
+
 @media screen and (max-width: 768px) {
 .img-swiper-text {
   width: 500px; 
 }
+
+
+
+  .last-event-1 .schedule-box:first-child {
+    margin-top: 0;
+  }
+
+
 } 
 @media screen and (max-width: 550px) {
 .img-swiper-text {
@@ -1341,6 +1371,8 @@ footer {
   .img-swiper-text {
     width: 100%;
   }
+
+
 } 
 
 
@@ -1351,13 +1383,40 @@ footer {
     margin-top: 15px
   }
   .events {
-    margin-top: 45px;
   }
-}
-@media screen and (max-width: 965px) {
-  .last-chi {
+
+  .news-card-container .news-card:nth-child(3) {
     display: none;
   }
+  .study-card:nth-child(4) {
+    display: none;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 965px) {
+
+
+
+  .last-event-2 {
+    display: block;
+  }
+
+  .events {
+    display: none;
+  }
+
+  .events-wrap {
+    display: block;
+  }
+
+  .news-card-container .news-card:nth-child(4) {
+    display: none;
+  }
+
 }
 
 
